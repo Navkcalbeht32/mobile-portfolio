@@ -6,7 +6,7 @@
     padding: 5px 20px;
     width: 50px;
     border-radius: 50px;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.2s;
 
     .icon {
         height: 24px;
@@ -15,11 +15,14 @@
     .title {
         font-size: 13px;
         font-weight: 400;
+        text-decoration: none;
+        color: #272727;
     }
 
 }
 
 .menu-item:hover {
-    background-color: #2d55e557;
+    // background-color: #2d55e557;
+    background-color: #eeeeee;
     cursor: pointer;
 }

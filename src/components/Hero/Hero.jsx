@@ -1,10 +1,39 @@
 import React from 'react';
 import './Hero.styles.scss';
-import HeroImage from '../../assets/hero-image.png';
 import YouTube from '../../assets/youtube.png';
 import Devf from '../../assets/devf.png';
 import Linux from '../../assets/linux.png';
-import TitleItem from '../TitleItem/TitleItem';
+
+// let imgArr = document.querySelectorAll('.img');
+// let prevX = 0;
+// let prevY = 0;
+// let moveXAmount = 0;
+// let moveYAmount = 0;
+
+// document.addEventListener("mousemove", function(e){
+//     mousePos(e);
+// })
+
+// function mousePos(e) {
+
+//     moveXAmount = e.pageX - prevX;
+//     moveYAmount = e.pageY - prevY;
+
+//     moveImg(moveXAmount, moveYAmount);
+
+//     prevX = e.pageX;
+//     prevY = e.pageY;
+// }
+
+// function moveImg(xAmount, yAmount){
+
+//     imgArr.forEach(function(img){
+//         let movementStrength = 20 + (Math.random() * 20);
+
+//         img.style.left = (img.offsetLeft) - (xAmount/movementStrength) + "px";
+//         img.style.top = (img.offsetTop) - (yAmount/movementStrength) + "px";
+//     })
+// }
 
 const Hero = () => {
     return (
@@ -20,7 +49,7 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Hero;
 
 
 {/* <div className="content">
