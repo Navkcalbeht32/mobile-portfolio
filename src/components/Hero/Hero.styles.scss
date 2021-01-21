@@ -1,0 +1,139 @@
+.hero {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin: 0px 0;
+
+    .image-container {
+        position: relative;
+        height: 600px;
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .img {
+        position: absolute;
+        width: auto;
+        z-index: 1;
+    }
+    
+    .img1 {
+        top: 5%;
+        left: 5%;
+        height: 10%;
+        animation: circle1 30s linear infinite;
+    }
+    
+    .img2 {
+        top: 10%;
+        left: 5%;
+        height: 300px;
+        animation: circle2 30s linear infinite;
+    }
+    
+    .img3 {
+        top: 10%;
+        left: 45%;
+        height: 240px;
+        animation: circle3 50s linear infinite;
+    }
+    
+    .img4 {
+        top: 25%;
+        right: 40%;
+        height: 240px;
+        animation: circle4 70s linear infinite;
+    }
+
+    .hero-image, 
+    .content {
+        width: 90%;
+        margin: 24px auto;
+        max-width: 600px;
+    }
+
+    .content {
+        display: flex;
+    }
+
+    .content-info {
+        text-align: left;
+        
+
+        h4 {
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.4;
+            color: #868686;
+        }
+
+        .purple-text {
+            background: -webkit-linear-gradient(#2D56E5, #C02DE5);
+            font-weight: 500;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .blue-text {
+            background: -webkit-linear-gradient(#2D56E5, #2DE5DA);
+            font-weight: 500;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    
+}
+
+@keyframes circle1 {
+    from{
+        transform: rotate(0deg)
+                   translate(20px)
+                   rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+                   translate(20px)
+                   rotate(-360deg)
+    }
+}
+
+@keyframes circle2 {
+    from{
+        transform: rotate(0deg)
+                   translate(20px)
+                   rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+                   translate(20px)
+                   rotate(-360deg)
+    }
+}
+
+@keyframes circle3 {
+    from{
+        transform: rotate(0deg)
+                   translate(20px)
+                   rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+                   translate(20px)
+                   rotate(-360deg)
+    }
+}
+
+@keyframes circle4 {
+    from{
+        transform: rotate(0deg)
+                   translate(20px)
+                   rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+                   translate(20px)
+                   rotate(-360deg)
+    }
+}
