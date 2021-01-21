@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import StickyMenu from './components/StickyMenu/StickyMenu';
+import Portfolio from './components/Portfolio/Portfolio';
+ 
 
 function App() {
   return (
@@ -18,11 +20,11 @@ function App() {
           </Route>
 
           <Route path="/skills">
-            <h1>SKILLS PAGE</h1>
+          <h1>SKILLS PAGE</h1>
           </Route>
 
           <Route path="/portfolio">
-            <h1>PORTFOLIO PAGE</h1>
+            <Portfolio />
           </Route>
 
         </Switch>

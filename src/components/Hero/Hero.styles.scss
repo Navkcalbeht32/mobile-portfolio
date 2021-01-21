@@ -19,21 +19,21 @@
     }
     
     .img1 {
-        top: 5%;
-        left: 5%;
-        height: 10%;
-        animation: circle1 30s linear infinite;
+        top: 44%;
+        right: 10%;
+        height: 100px;
+        animation: circle1 90s linear infinite;
     }
     
     .img2 {
         top: 10%;
         left: 5%;
         height: 300px;
-        animation: circle2 30s linear infinite;
+        animation: circle2 60s linear infinite;
     }
     
     .img3 {
-        top: 10%;
+        top: 14%;
         left: 45%;
         height: 240px;
         animation: circle3 50s linear infinite;
@@ -43,7 +43,16 @@
         top: 25%;
         right: 40%;
         height: 240px;
-        animation: circle4 70s linear infinite;
+        animation: circle4 50s linear infinite;
+    }
+
+    .img5 {
+        top: 40%;
+        right: 0%;
+        height: 100px;
+        z-index: 0;
+        opacity: 0.4;
+        animation: circle4 80s linear infinite;
     }
 
     .hero-image, 
@@ -89,12 +98,12 @@
 @keyframes circle1 {
     from{
         transform: rotate(0deg)
-                   translate(20px)
+                   translate(10px)
                    rotate(0deg)
     }
     to{
         transform: rotate(360deg)
-                   translate(20px)
+                   translate(10px)
                    rotate(-360deg)
     }
 }
@@ -102,12 +111,12 @@
 @keyframes circle2 {
     from{
         transform: rotate(0deg)
-                   translate(20px)
+                   translate(5px)
                    rotate(0deg)
     }
     to{
         transform: rotate(360deg)
-                   translate(20px)
+                   translate(5px)
                    rotate(-360deg)
     }
 }

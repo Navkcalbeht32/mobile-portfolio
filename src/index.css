@@ -10,4 +10,20 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;             
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;       
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c2c2c2;    
+  border-radius: 20px;       
+}
 

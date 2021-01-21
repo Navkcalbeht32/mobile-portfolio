@@ -3,6 +3,8 @@ import './Hero.styles.scss';
 import YouTube from '../../assets/youtube.png';
 import Devf from '../../assets/devf.png';
 import Linux from '../../assets/linux.png';
+import Dots from '../../assets/dots.svg';
+import Rectangle from '../../assets/rectangle.svg';
 
 // let imgArr = document.querySelectorAll('.img');
 // let prevX = 0;
@@ -39,12 +41,12 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="image-container">
+                {/* <img src={Dots} alt="" className="img img1"/> */}
                 <img src={YouTube} alt="" className="img img2"/>
                 <img src={Linux} alt="" className="img img3"/>
                 <img src={Devf} alt="" className="img img4"/>
+                {/* <img src={Rectangle} alt="" className="img img5"/> */}
             </div>
-            
-            
         </div>
     )
 }
