@@ -3,7 +3,7 @@ import './PortfolioCard.styles.scss';
 import { ReactComponent as Code } from '../../../assets/code.svg';
 import YouTube from '../../../assets/youtube.png';
 
-const PortfolioCard = ({ image, title, subtitle, description }) => {
+const PortfolioCard = ({ image, title, subtitle, description, codeLink, liveLink }) => {
     return (
         <div className="portfolio-card">
             <img src={image} alt=""/>
@@ -12,12 +12,12 @@ const PortfolioCard = ({ image, title, subtitle, description }) => {
                 <h4>This project tested my skill of building from looking, by developing a front-end experienced based upon an already well known platform.<br/></h4>
                 <h5>Complete back-end functionality is being implemented.</h5>
                 <div className="btn-container">
-                <a href="#">
+                <a href={liveLink} target="_blank">
                     <div className="btn">
                         <h4>View Live</h4>
                     </div>
                 </a>
-                <a href="#">
+                <a href={codeLink} target="_blank">
                     <div className="code-btn">
                         <Code className="code-icon" />
                     </div>

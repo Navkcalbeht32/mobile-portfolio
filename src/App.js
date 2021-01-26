@@ -5,12 +5,15 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import StickyMenu from './components/StickyMenu/StickyMenu';
 import Portfolio from './components/Portfolio/Portfolio';
+import BottomFade from './components/BottomFade/BottomFade';
+import TopFade from './components/TopFade/TopFade';
  
 
 function App() {
   return (
     <Router>
       <div className="app">
+        <TopFade />
         <Header />
         
         <Switch>
@@ -30,6 +33,7 @@ function App() {
         </Switch>
 
         <StickyMenu />
+        <BottomFade />
         
       </div>
     </Router>
